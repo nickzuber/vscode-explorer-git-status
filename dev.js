@@ -1,8 +1,8 @@
 function injectGitFileStatus()
 {
     const timeout = 5000;
-    const addedColor = "limegreen";
-    const modifiedColor = "darkorange";
+    const addedColor = "#62f592";
+    const modifiedColor = "#f3f8a2";
     const ignoredOpacity = "0.4";
 
     const explorer = document.getElementById("workbench.view.explorer");
